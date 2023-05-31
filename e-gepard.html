@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gepard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flag-icon.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- завантажувач сторінки -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="materials/logo.svg">
+                WarfareWiki
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-2 active" aria-current="page" href="index.html">Енциклопедія</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-3" href="nav_history.html">Історія</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-4" href="nav_useful.html">Корисне</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row tm-mb-90">   
+            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12">
+                <div class="container">
+                    
+                      <!-- кнопки навігації -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Зображення на всю ширину з цифровим текстом -->
+                    <div class="mySlides">
+                        <img src="materials/encyclopedia/gepard/img-06-01-big.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                        <img src="materials/encyclopedia/gepard/img-06-02-big.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                        <img src="materials/encyclopedia/gepard/img-06-03-big.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                          <img src="materials/encyclopedia/gepard/img-06-04-big.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                        <video autoplay muted loop controls id="tm-video">
+                        <source src="materials/encyclopedia/gepard/vid-06-05-big.mp4" style="width:100%" type="video/mp4">
+                        </video>  
+                    </div>
+                  
+                    <div class="mySlides">
+                        <div class="sketchfab-embed-wrapper"> <iframe title="Flakpanzer Gepard Tank" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="100%" height="537" src="https://sketchfab.com/models/a46812e44f26480ebc6038147defd9eb/embed"> </iframe> </div>
+                    </div>
+                  
+                    <!-- Мініатюрні зображення -->
+                    <div class="row">
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/gepard/img-06-01-big.jpg" style="width:100%" onclick="currentSlide(1)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/gepard/img-06-02-big.jpg" style="width:100%" onclick="currentSlide(2)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/gepard/img-06-03-big.jpg" style="width:100%" onclick="currentSlide(3)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/gepard/img-06-04-drawing.jpg" style="width:100%" onclick="currentSlide(4)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/gepard/img-06-05-big.jpg" style="width:100%" onclick="currentSlide(5)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/gepard/img-06-06-big.jpg" style="width:100%" onclick="currentSlide(6)">
+                      </div>
+                    </div>
+                </div>
+                <script src="js/slider.js"></script>
+            </div> 
+
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">              
+                    <div class="mb-4 d-flex flex-wrap">
+                        <div class="col-12 col-lg-12">
+                            <h2>GEPARD</h2>
+                            <table class="table">
+                                <tr>
+                                    <td>Тип:</td>
+                                    <td><img src="materials/zsu.svg"> ЗСУ</td>
+                                </tr>
+                                <tr>
+                                    <td>Країна виробник:</td>
+                                    <td><span class="flag-icon flag-icon-de"></span> Німеччина</td>
+                                </tr>
+                                <tr>
+                                    <td>Компанія виробник:</td>
+                                    <td>Krauss-Maffei</td>
+                                </tr>
+                                <tr>
+                                    <td>Рік виробництва:</td>
+                                    <td>1970</td>
+                                </tr>
+                                <tr>
+                                    <td>Вартість:</td>
+                                    <td>~2,1 млн €</td>
+                                </tr>
+                                <tr>
+                                    <td>Вага:</td>
+                                    <td>47,5 тонн</td>
+                                </tr>
+                                <tr>
+                                    <td>Максимальна швидкість:</td>
+                                    <td>65 км/год</td>
+                                </tr>
+                                <tr>
+                                    <td>Основне озброєння:</td>
+                                    <td>2×35-мм автоматичні гармати Oerlikon KDA L/90</td>
+                                </tr>
+                                <tr>
+                                    <td>Екіпаж:</td>
+                                    <td>3 людини</td>
+                                </tr>
+                                <tr>
+                                    <td>Темп огню:</td>
+                                    <td>550 вистрилів в хвилину на одну гармату</td>
+                                </tr>
+                                <tr>
+                                    <td>Довжина стволу:</td>
+                                    <td>3150 м (90 калібрів)</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row tm-mb-90">   
+            <div class="col-xl-12 col-lg-5 col-md-12 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">
+                
+                    <div class="mb-4">
+                        <h3 class="tm-text-dark mb-3">Опис</h3>
+                        <p class="justify-dark"> <b>Ґепа́рд (нім. Flugabwehrkanonenpanzer (також Flakpanzer, FlakPz) Gepard — танк з зенітною гарматою «гепард»)</b> — німецька зенітна самохідна артилерійська установка виробництва компанії Krauss-Maffei в співпраці з іншими підприємствами. Використано модифіковане шасі від танка Leopard 1 та артилерійську частину на основі двох 35 мм гармат Oerlikon KDA. Надійшла на озброєння Німеччини, Бельгії, та Нідерландів у другу половину 1970-х років.</p>
+                        <p class="justify-dark">Призначена для захисту бронетанкових колон на марші та стаціонарних об'єктів від атак з вертольотів та літаків на малих і надмалих висотах вдень і вночі за будь-яких погодних умов та в умовах інтенсивної радіоелектронної протидії супротивника.</p>
+                        <p class="justify-dark">Бойове хрещення відбулось в 2022 році під час російсько-української війни.</p>
+                        <p class="justify-dark"></p>
+                        <div class="line"></div>
+                        </br>
+                        
+                        <h3 class="tm-text-dark mb-3">Історія</h3>
+                        <p class="justify-dark">Розробка Gepard почалась у 1966, коли виникла потреба заміни американської ЗСУ M42 Duster, яка на той час стояла на озброєнні Бундесверу.</p>
+                        <p class="justify-dark">У 1969 почали випробування чотирьох прототипів, на які були встановлені гармати різних калібрів: 30 мм та 35 мм. 25 червня 1970 було вирішено використати артилерійську установку калібру 35 мм.</p>
+                        <p class="justify-dark">5 лютого 1973 було ухвалене рішення про серійний випуск. Компанія Krauss-Maffei отримала контракт на 432 турелі та 420 корпусів, загальною вартістю 1,2 млрд німецьких марок. Перші машини з'явились в армії у грудні 1976.</p>
+                        <p class="justify-dark">Основна відмінність між різними серійними моделями полягала в конструкції бортових РЛС.</p>
+                        <div class="line"></div>
+                        </br>
+
+                        <h3 class="tm-text-dark mb-3">Вдосконалення</h3>
+                        <p class="justify-dark">Протягом доволі тривалої історії розробки та експлуатації системи вона проходила через різні програми модернізації та підвищення бойової ефективності. Іще під час серійного виробництва було змінено конструкцію приладів для відстрілу димових гранат. Було замінено пристрої вимірювання початкової швидкості снарядів v0 на витриваліші.</p>
+                        <p class="justify-dark">Починаючи з 1985 року більшу частину машин моделі B2 було додатково обладнано лазерним далекоміром, завдяки чому кількість машин моделі B2L на озброєнні Бундесверу зросла до 382 одиниць. Також бортові радіостанції SEM 25 були замінені на сучасніші радіостанції SEM 90.</p>
+                        <p class="justify-dark">В 1984 році розпочались роботи над створенням модернізованої моделі Gepard 2. Нова модель мала скоротити експлуатаційні витрати, підвищити бойову ефективність та усунути відомі недоліки наявної системи. Серед іншого, аналоговий балістичний обчислювач мав бути замінений на цифровий. Мали бути створені нові снаряди, можливість обміну даними, поліпшено ергономічність.</p>
+                        <p class="justify-dark">В 1986 році почалось опрацювання технічного завдання проєкту Gepard 2, а в 1988 році — розробка.</p>
+                        <p class="justify-dark">В 1992 році було виготовлено перший прототип. Однак через раптову зміну безпекової ситуації у Світі проєкт був визнаний надто дорогим та невиправданим.</p>
+                        <p class="justify-dark">Та на початку 1990-х років з'явилась проблема з постачанням запасних частин і технічним обслуговуванням наявного парку Gepard. Тому в 1996—2000 роки 147 машин пройшли модернізацію з подовженням терміну служби. Під час модернізації було використано частину напрацювань проєкту Gepard 2 і нова модель отримала назву Gepard 1A2. В цьому проєкті з модернізації взяли участь і Нідерланди з 60 машинами.</p>
+                        <p class="justify-dark">Нова модель отримала новий цифровий балістичний комп'ютер на основі 32-бітового мікропроцесора Motorola 68020 із математичним копроцесором, поліпшено інтеграцію в систему управління боєм та розвідки сухопутних військ (нім. HFlaAFüSys), радіостанції SEM 93. Також була додана підтримка нових снарядів FAPDS з істотно більшою ефективною дальністю й вищою початковою швидкістю</p>
+                        <p class="justify-dark">Після об'єднання основних розробників комплексу в єдину компанію Krauss-Maffei Wegmann, було створено прототип модернізації з встановленою спареною пусковою установкою зенітних ракет FIM-92 Stinger на гондолі правої гармати.</p>
+                        <p class="justify-dark">Також було створено прототип системи, яка отримала назву англ. Smart Fort з можливістю дистанційного управління вогнем, наприклад, із захищеного місця, бункера, тощо.</p>
+                        <div class="line"></div>
+                        </br>
+
+                        <h3 class="tm-text-dark mb-3">Конструкція</h3>
+                        <p class="justify-dark">ЗСУ базується на модифікованому шасі танка Leopard 1. На башті, що може обертатись повне коло, встановлені дві 35 мм гармати Oerlikon KDA та два радари: пошуковий та відстежувальний. Для електродвигунів керування баштою служить електрогенератор потужністю 40 кВт, для якого, у свою чергу, передбачений окремий дизельний двигун Mercedes-Benz OM 314 об'ємом 3,8 л.</p>
+                        <p class="justify-dark">Кожна з гармат має швидкострільність 550 пострілів на хвилину. Довжина стволів складає 90 калібрів (3,15 м), початкова швидкість снарядів 1440 м/с, ефективна дальність ураження 5500 м. До боєкомплекту входять 640 снарядів для ураження повітряних цілей та 40 бронебійних снарядів для стрільби по наземних цілях</p>
+                        <p class="justify-dark">Існувала практика супроводження цієї ЗСУ загонами піхоти, озброєними протиповітряними ракетами Stinger; в такому випадку солдати використовували інформацію, отриману від радарів ЗСУ. Також існував проект по розміщенню на Gepard ракетних модулів, однак від нього відмовились через вартість та появу ракетної ЗСУ «Ozelot» на основі БМД «Візель».</p>
+                        <p class="justify-dark">«Гепард» має дві РЛС — оглядову для пошуку цілей та стеження для наведення на обрану ціль.</p>
+                        <p class="justify-dark">Оглядовий радар робить 60 обертів на хвилину й може працювати на одній з шести частот.</p>
+                        <p class="justify-dark">Додатково ЗСУ «Гепард» має два перископа — для командира екіпажу та стрільця-навідника. З можливістю перемикатись між 1,5 та 6-ти кратним збільшенням.</p>
+                        <p class="justify-dark">Установка має гіроскоп, завдяки якому система управління вогнем здатна врахувати нахил машини на нерівній поверхні. Також до уваги беруться дані про атмосферний тиск, температуру та вологість повітря, швидкість та напрям вітру.</p>
+                        <p class="justify-dark">У версії Gepard 1А2 система управління вогнем була модернізована. Нова версія була створена компанією EADS, вона стала цифровою на основі 32-бітового мікропроцесора Motorola 68020, отримала можливості командування, управління і зв'язку (англ. Command, Control and Communications, C3) — тобто, може обмінюватись даними з іншими системами протиповітряної оборони. Також машина отримала пристрій супутникової навігації GPS.</p>
+                        <div class="line"></div>   
+                        </br>
+                        <h3 class="tm-text-dark mb-3">Озброєння</h3>
+                        <p class="justify-dark">Основним озброєнням зенітної артилерійської установки «Гепард» є пара 35-мм гармат Oerlikon KDA L/90. Гармати встановлені ззовні на башті установки. Уразливі частини (наприклад, затвор) прикриті сталевими листами.</p>
+                        <p class="justify-dark">Довжина ствола — 3150 мм, з приладом вимірювання дульної швидкості — 3710 мм, а повна довжина зібраної гармати — 4740 мм.</p>
+                        <p class="justify-dark">Кожна гармата живиться окремо від іншої та отримує снаряди у сталевій розбірній стрічці. Основний боєкомплект — 320 снарядів для ураження повітряних цілей, знаходиться спеціальних нішах в нижній частині башти, снарядами всередину. Також у магазині в гондолі кріплення гармати знаходиться 20 снарядів для ураження наземних цілей.</p>
+                        <p class="justify-dark">Перемикання між подачею снарядів для ураження повітряних та наземних цілей відбувається з середини башти</p>
+                        <p class="justify-dark">Зенітна самохідна установка «Гепард» здатна працювати автономно: вона має оглядово-пошукову РЛС, та РЛС відстеження і наведення на ціль, систему визначення «свій — чужий», тощо</p>
+                        <p class="justify-dark">В залежності від цілі обирають один з наявних режимів вогню. Для ураження літаків зазвичай обирають «нормальний» (нім. NORMAL) режим, кількість пострілів, при цьому, обчислює система управління вогнем, але не більше 12 пострілів на гармату.</p>
+                        <p class="justify-dark">Для ураження БПЛА служить режим «короткими» чергами</p>
+                        <p class="justify-dark">Якщо боєзапас обмежений, обирають відповідний режим (нім. BEGRENZT), тоді максимальна кількість пострілів на одну гармату дорівнює 10.</p>
+                        <div class="line"></div>   
+                        </br>
+
+                        <h6 class="tm-text-dark mb-3"> Читати більше на <a href="https://uk.wikipedia.org/wiki/Gepard_(%D0%97%D0%A1%D0%A3)" target="_parent" rel="sponsored">Вікіпедія</a></h6>
+                        </p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">
+                Інші екземпляри
+            </h2>
+        </div>
+
+        <div class="row tm-mb-90 tm-gallery">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-02.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>HESA Shahed 136</h2>
+                        <a href="e-hesa-shahed136.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>HESA Shahed 136</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-03.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Bushmaster</h2>
+                        <a href="e-bushmaster-pmv.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>Bushmaster</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-04.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Leopard 1А5</h2>
+                        <a href="e-leopard-1a5.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>Leopard 1А5</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-05.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Marder</h2>
+                        <a href="e-marder.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>Marder</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+    </script>
+</body>
+</html>

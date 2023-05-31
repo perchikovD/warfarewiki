@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marder</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flag-icon.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- завантажувач сторінки -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="materials/logo.svg">
+                WarfareWiki
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-2 active" aria-current="page" href="index.html">Енциклопедія</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-3" href="nav_history.html">Історія</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-4" href="nav_useful.html">Корисне</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row tm-mb-90">   
+            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12">
+                <div class="container">
+                    
+                      <!-- кнопки навігації -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Зображення на всю ширину з цифровим текстом -->
+                    <div class="mySlides">
+                        <img src="materials/encyclopedia/marder/img-05-01-big.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                        <img src="materials/encyclopedia/marder/img-05-02-big.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                        <img src="materials/encyclopedia/marder/img-05-03-big.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                          <img src="materials/encyclopedia/marder/img-05-04-big.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                        <video autoplay muted loop controls id="tm-video">
+                        <source src="materials/encyclopedia/marder/vid-05-05-big.mp4" style="width:100%" type="video/mp4">
+                        </video>  
+                    </div>
+                  
+                    <div class="mySlides">
+                        <div class="sketchfab-embed-wrapper"> <iframe title="Marder APC" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="100%" height="537" src="https://sketchfab.com/models/5caaa689736f4ebd8e9dd2b84109913e/embed"> </iframe></div>
+                    </div>
+                  
+                    <!-- Мініатюрні зображення -->
+                    <div class="row">
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/marder/img-05-01-big.jpg" style="width:100%" onclick="currentSlide(1)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/marder/img-05-02-big.jpg" style="width:100%" onclick="currentSlide(2)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/marder/img-05-03-big.jpg" style="width:100%" onclick="currentSlide(3)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/marder/img-05-04-drawing.jpg" style="width:100%" onclick="currentSlide(4)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/marder/img-05-05-big.jpg" style="width:100%" onclick="currentSlide(5)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/marder/img-05-06-big.jpg" style="width:100%" onclick="currentSlide(6)">
+                      </div>
+                    </div>
+                </div>
+                <script src="js/slider.js"></script>
+            </div> 
+
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">              
+                    <div class="mb-4 d-flex flex-wrap">
+                        <div class="col-12 col-lg-12">
+                            <h2>MARDER</h2>
+                            <table class="table">
+                                <tr>
+                                    <td>Тип:</td>
+                                    <td><img src="materials/transporter.svg"> БМП</td>
+                                </tr>
+                                <tr>
+                                    <td>Країна виробник:</td>
+                                    <td><span class="flag-icon flag-icon-de"></span> Германія</td>
+                                </tr>
+                                <tr>
+                                    <td>Компанія виробник:</td>
+                                    <td>Rheinmetall AG</td>
+                                </tr>
+                                <tr>
+                                    <td>Рік виробництва:</td>
+                                    <td>1969</td>
+                                </tr>
+                                <tr>
+                                    <td>Вартість:</td>
+                                    <td>850 тис. - 1 млн €</td>
+                                </tr>
+                                <tr>
+                                    <td>Вага:</td>
+                                    <td>33,5 тонн</td>
+                                </tr>
+                                <tr>
+                                    <td>Максимальна швидкість:</td>
+                                    <td>65 км/год</td>
+                                </tr>
+                                <tr>
+                                    <td>Потужність двигуна:</td>
+                                    <td>600 к.с.</td>
+                                </tr>
+                                <tr>
+                                    <td>Екіпаж:</td>
+                                    <td>3 людини</td>
+                                </tr>
+                                <tr>
+                                    <td>Десант:</td>
+                                    <td>6 людей</td>
+                                </tr>
+                                <tr>
+                                    <td>Автоматична гармата:</td>
+                                    <td>20 мм</td>
+                                </tr>
+                                <tr>
+                                    <td>Дальність пострілу:</td>
+                                    <td>2,5 км</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row tm-mb-90">   
+            <div class="col-xl-12 col-lg-5 col-md-12 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">
+                
+                    <div class="mb-4">
+                        <h3 class="tm-text-dark mb-3">Опис</h3>
+                        <p class="justify-dark"> <b>«Ма́рдер» (укр. куниця)</b> — німецька гусенична бойова машина піхоти концерну Rheinmetall. Основна бойова машина танко-гренадерських дивізій Бундесверу з 1970-х років.</p>
+                        <div class="line"></div>
+                        </br>
+                        
+                        <h3 class="tm-text-dark mb-3">Історія</h3>
+                        <p class="justify-dark">Ще у вересні 1959 року з'явилася ідея розробки нової БМП, яка б відповідала новому основному танку, що тоді розробляли.</p>
+                        <p class="justify-dark">Розробка нової БМП розпочалась у січні 1960 на основі контракту з Бундесвером із заміни БМП HS 30. На той час завершували розробку нового основного танку Leopard 1 і HS 30 не відповідала його технічним харакетристикам за швидкості, тактичним завданням через малу чисельність десанту, що не відповідала чисельності тактичної одиниці — відділенню з 10-ти осіб.</p>
+                        <p class="justify-dark">Спочатку розробкою прототипів зайнялись групи з Rheinstal Group (підрозділи Rheinstal-Hanomag, Ruhrstahl, КБ Warnecke) і Henschel-Werke разом з швейцарською компанією Mowag.</p>
+                        <p class="justify-dark">На базі HS 30 виготовили прототипи 1-го покоління масою 16 т: Rheinstal — RU 111, RU 112, RU 122; Henschel — 1HK 2/1, 1HK 2/2; MOWAG — HM 1, HM 2. Після випробувань 1963 року було представлене друге покоління БМП вагою понад 20 т. Rheinstal надав прототипи RU 261, RU 262 з розміщеним спереду мотором та клиноподібною носовою частиною. У прототипів 2M1/1, 2M1/2, 2M1/3 MOWAG мотор розміщували посередині.</p>
+                        <p class="justify-dark">1964 року розпочали розробку третього покоління прототипів згідно з новими вимогами Бундесверу: більші розміри в ширину і довжину, задній кулемет, фальшборти для додаткового захисту з бортів, двомісна башта зі швидкострільною малокаліберною гарматою.</p>
+                        <p class="justify-dark">На 1967 рік було розроблено останні 10 прототипів, які відправили для випробувань у війська.</p>
+                        <p class="justify-dark">1968 року з конкурсу вийшли прототипи MOWAG, а прототипи Rheinstal 1969 прийняли до серійного виробництва.</p>
+                        <p class="justify-dark">Було замовлено 2136 БМП і 7 травня 1971 перший серійний екземпляр Marder передали війську ФРН, серійне виробництво тривало до 1975 року.</p>
+                        <p class="justify-dark">Конструкція виявилась придатною для подальших модернізацій. На основі БМП Marder компанія Thyssen-Henchel розробила для Аргентини основний бойовий танк Tanque Argentino Mediano[de](1979—1985).</p>
+                        <p class="justify-dark">У 1977—1979 роках на баштах усіх БМП Marder встановили ПТКР MILAN з боєкомплектом 6 ракет.</p>
+                        <div class="line"></div>
+                        </br>
+
+                        <h3 class="tm-text-dark mb-3">Конструкція</h3>
+                        <p class="justify-dark">Герметичний корпус зварений із броньових листів різної товщини до 30 мм завтовшки, що захищають спереду від снарядів 20 мм і 25 мм з відстані 200 м, з боків від шрапнелі, стрілецької зброї 7,62 мм. Корпус зменшує вплив радіації.</p>
+                        <p class="justify-dark">На Marder 1A3 встановлено додаткову багатошарову броню, що дозволяє в критичних точках витримувати обстріл з 30-мм зброї.</p>
+                        <p class="justify-dark">Для захисту від зброї масового ураження всередині корпусу система NBC створює надлишковий тиск з продуктивністю 3м³/хв. Особовий склад може перебувати у ньому 24 години.</p>
+                        <p class="justify-dark">Розроблено модифікацію Marder, що здатна форсувати водойми до 2 м завглибшки.</p>
+                        <p class="justify-dark">У кормі розміщений посадковий люк десанту. У бортах є 6 амбразур для стрільби з ручної зброї (MP2A1, HK G36, HK69.</p>
+                        <div class="line"></div>
+                        </br>
+                        <h3 class="tm-text-dark mb-3">Подальший розвиток</h3>
+                        <p class="justify-dark">У січні 2020 року Бундесвер уклав контракт із Rheinmetall на проведення нового етапу робіт щодо продовження терміну служби бойових машини піхоти «Marder».</p>
+                        <p class="justify-dark">Для підтримки експлуатаційної готовності буде оновлено 71 БМП «Marder 1А5». Протягом 2020—2023 років Rheinmetall постачатиме німецьким військовим загалом 78 комплектів для переобладнання, крім того комплекти інструментів, запасних частин, надаватиме логістичну підтримку, а також проводитиме підготовку та навчання персоналу.</p>
+                        <p class="justify-dark">Насамперед бойові машини отримають новий двигун потужністю понад 750 кінських сил, замість 600.</p>
+                        <p class="justify-dark">Відповідно до комплексного контракту, парк «Мардерів» вже пройшов значну модернізацію. Наприклад, нещодавно у БМП було інтегровано протитанкову керовану ракетну систему MELLS, замовлено нову систему спостереження водія, тепловізійний приціл та систему виявлення та гасіння пожежі. Для частини етапів вже було укладено серійні контракти.</p>
+                        <p class="justify-dark">Програма модернізації бойових машин піхоти Marder 1A5, які продовжують перебувати на озброєнні, реалізується Бундесвером паралельно із переходом на нові БМП «Puma», які надходять до механізованих підрозділів сухопутних військ німецької армії.</p>
+                        <div class="line"></div>
+                        </br>
+
+                        <h3 class="tm-text-dark mb-3">Озброєння</h3>
+                        <p class="justify-dark">БМП озброєна 20-мм автоматичною гарматою RH 202[en] та спареним з нею 7,62-мм кулеметом MG3, встановленим на лафеті зверху двомісної вежі. Гармата Rh 202 заряджається патронами 20 139 мм. Ще один 7,62-мм кулемет MG3A1 розташований на даху десантного відділення та має дистанційне керування. У 1979 р. пройшла випробування досвідчена Marder із вежею, стабілізованою у трьох площинах.</p>
+                        <p class="justify-dark">Для двомісної вежі Marder 2 фірма Rheinmetall AG розробила гармату Rh 503 зі змінним стволом калібру 35 та 50 мм та елементами механізму живлення. Гармата має електромеханічні приводи системи перезаряджання, змінний темп стрільби 150 і 400 вистр/хв і двостороннє безланкове харчування. 35-мм ствол передбачалося використовувати для навчально-тренувальних, а 50-мм - для бойових цілей. З гарматою спарений 7,62-мм кулемет. Також ліворуч на вежі може кріпитися гранатомет «Panzerfaust 3» з дальністю стрільби до 1 000 м, проте стрілянина з нього вимагає зупинки, виходу гранатомєтника з машини та зняття РПГ із кріплення. Тому використовується дуже рідко.</p>
+                        <p class="justify-dark">За німецькою традицією «Мардер» рясно забезпечений приладами спостереження. Механік-водій окрім трьох призмінних блоків має знімний підсвічувальний ПНВ, що працює на відстані до 50 м. На марші він використовує два складні дзеркала заднього огляду. По периметру башти командира встановлено 8 оглядових блоків. У розпорядженні навідника три призменные блоки, встановлених на лівому борту вежі біля стику з її дахом. Кожен стрілець має свій призмовий оглядовий блок. З лівого боку лафета на особливій штанзі укріплений прожектор інфрачервоного та білого світла, що діє відповідно на відстані до 800 і до 1000 м. Дві фари встановлені попереду на лобовому листі. На кормі укріплені світловідбивачі та габаритні вогні. Останні розташовані так, щоб за ступенем їхньої помітності водій машини, що йде позаду, міг визначити дистанцію на марші вночі або в тумані. У систему управління вогнем БМП входить новий денний/нічний приціл командира з вбудованим тепловізором та лазерним далекоміром, приціл навідника та електронний балістичний обчислювач.</p>
+                        <div class="line"></div>   
+                        </br>
+
+                        <h6 class="tm-text-dark mb-3"> Читати більше на <a href="https://uk.wikipedia.org/wiki/Marder" target="_parent" rel="sponsored">Вікіпедія</a></h6>
+                        </p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">
+                Інші екземпляри
+            </h2>
+        </div>
+
+        <div class="row tm-mb-90 tm-gallery">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-03.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Bushmaster</h2>
+                        <a href="e-bushmaster-pmv.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>Bushmaster</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-04.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Leopard 1А5</h2>
+                        <a href="e-leopard-1a5.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>Leopard 1А5</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-06.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Gepard</h2>
+                        <a href="e-gepard.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>Gepard</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-07.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>M1 Abrams</h2>
+                        <a href="e-m1-abrams.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>M1 Abrams</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patriot</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flag-icon.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- завантажувач сторінки -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="materials/logo.svg">
+                WarfareWiki
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-2 active" aria-current="page" href="index.html">Енциклопедія</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-3" href="nav_history.html">Історія</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-4" href="nav_useful.html">Корисне</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row tm-mb-90">   
+            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12">
+                <div class="container">
+                    
+                      <!-- кнопки навігації -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Зображення на всю ширину з цифровим текстом -->
+                    <div class="mySlides">
+                        <img src="materials/encyclopedia/mim-104-patriot/img-08-01-big.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                        <img src="materials/encyclopedia/mim-104-patriot/img-08-02-big.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                        <img src="materials/encyclopedia/mim-104-patriot/img-08-03-big.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                          <img src="materials/encyclopedia/mim-104-patriot/img-08-04-big.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                        <video autoplay muted loop controls id="tm-video">
+                        <source src="materials/encyclopedia/mim-104-patriot/vid-08-05-big.mp4" style="width:100%" type="video/mp4">
+                        </video>  
+                    </div>
+                  
+                    <div class="mySlides">
+                        <div class="sketchfab-embed-wrapper"> <iframe title="MIM-104 Patriot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="100%" height="537" src="https://sketchfab.com/models/5aa6d27d22274a7aac54ed7cc0eee7c7/embed"> </iframe></div>
+                    </div>
+                  
+                    <!-- Мініатюрні зображення -->
+                    <div class="row">
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/mim-104-patriot/img-08-01-big.jpg" style="width:100%" onclick="currentSlide(1)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/mim-104-patriot/img-08-02-big.jpg" style="width:100%" onclick="currentSlide(2)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/mim-104-patriot/img-08-03-big.jpg" style="width:100%" onclick="currentSlide(3)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/mim-104-patriot/img-08-04-drawing.jpg" style="width:100%" onclick="currentSlide(4)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/mim-104-patriot/img-08-05-big.jpg" style="width:100%" onclick="currentSlide(5)">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="materials/encyclopedia/mim-104-patriot/img-08-06-big.jpg" style="width:100%" onclick="currentSlide(6)">
+                      </div>
+                    </div>
+                </div>
+                <script src="js/slider.js"></script>
+            </div> 
+
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">              
+                    <div class="mb-4 d-flex flex-wrap">
+                        <div class="col-12 col-lg-12">
+                            <h2>MIM-104 PATRIOT</h2>
+                            <table class="table">
+                                <tr>
+                                    <td>Тип:</td>
+                                    <td><img src="materials/zsu.svg"> ЗРК</td>
+                                </tr>
+                                <tr>
+                                    <td>Країна виробник:</td>
+                                    <td><span class="flag-icon flag-icon-us"></span> США</td>
+                                </tr>
+                                <tr>
+                                    <td>Компанія виробник:</td>
+                                    <td>Raytheon Technologies</td>
+                                </tr>
+                                <tr>
+                                    <td>Рік виробництва:</td>
+                                    <td>1981</td>
+                                </tr>
+                                <tr>
+                                    <td>Вартість:</td>
+                                    <td>1 млрд $</td>
+                                </tr>
+                                <tr>
+                                    <td>Дальність відстеження цілі:</td>
+                                    <td>180 км</td>
+                                </tr>
+                                <tr>
+                                    <td>Дальність перехоплення цілі:</td>
+                                    <td>до 80 км</td>
+                                </tr>
+                                <tr>
+                                    <td>Висота перехоплення цілі:</td>
+                                    <td>до 24 км</td>
+                                </tr>
+                                <tr>
+                                    <td>Максимальна швидкість цілі:</td>
+                                    <td>2200 м/с</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row tm-mb-90">   
+            <div class="col-xl-12 col-lg-5 col-md-12 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">
+                
+                    <div class="mb-4">
+                        <h3 class="tm-text-dark mb-3">Опис</h3>
+                        <p class="justify-dark"><b>MIM-104 «Patriot» (англ. MIM-104 Patriot, переклад з англійської — патріот, звучання — петріот)</b> — зенітно-ракетний комплекс (ЗРК), основний у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Виробляється американським оборонним підрядником Raytheon Technologies і отримав свою назву від радіолокаційного компонента системи озброєння. AN/MPQ-53, який є серцевиною системи, відомий як «Радар стеження з фазованою решіткою для перехоплення цілі» (англ. Phased Array Tracking Radar to Intercept on Target), що є акронімом слова «Патріот». Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року.</p>
+                        <p class="justify-dark">Patriot використовує передові ракети-перехоплювачі з повітря та високоефективні радіолокаційні системи. Patriot був розроблений в Редстоун Арсенал у Хантсвіллі, штат Алабама, який раніше розробив систему ПРО Safeguard і її компонент Spartan, а також гіперзвукові швидкісні ракети Sprint. Символом Патріота є малюнок хвилинника часів війни за незалежність.</p>
+                        <p class="justify-dark">Системи Patriot були продані збройним силам Нідерландів, Польщі, Німеччини, Японії, Ізраїлю, Саудівської Аравії, Кувейту, Тайваню, Греції, Іспанії, Об'єднаних Арабських Еміратів, Катару, Румунії та Швеції. Південна Корея придбала у Німеччини кілька вживаних систем Patriot після того, як Північна Корея випробувала балістичні ракети в Японському морі та продовжила підземні ядерні випробування в 2006 році.[4] Йорданія також закупила в Німеччині кілька вживаних систем Patriot. У Польщі проходять навчальні ротації батареї американських пускових установок Patriot. Навчання розпочалося в місті Моронг у травні 2010 року, але пізніше було перенесено далі від російського кордону до Торуня та Устки через протест Росії.[5] У грудні 2012 року НАТО санкціонувала розміщення ракетних установок Patriot у Туреччині для захисту країни від ракет, випущених під час громадянської війни в сусідній Сирії.[6] Patriot була однією з перших тактичних систем у Міністерстві оборони США, яка використовувала летальну автономію в бою.</p>
+                        <p class="justify-dark">Система Patriot завоювала престиж під час війни в Перській затоці 1991 року, коли, як стверджувалося, було задіяно понад 40 іракських ракет «Скад». Система була успішно використана проти іракських ракет під час війни в Іраку 2003 року, а також була використана силами Саудівської Аравії та Еміратів у конфлікті в Ємені проти ракетних атак хуситів. Система Patriot здійснила перші беззаперечні збиття ворожих літаків на озброєнні командування протиповітряної оборони Ізраїлю. Ізраїльські батареї MIM-104D збили два БПЛА ХАМАС під час операції «Непорушна скеля» у серпні 2014 року, а у вересні 2014 року ізраїльська батарея Patriot збила Су-24 ВПС Сирії, який проник у повітряний простір Голанських висот.</p>
+                        <div class="line"></div>
+                        </br>
+                        <h3 class="tm-text-dark mb-3">Історія</h3>
+                        <p class="justify-dark">Система «Петріот» створювалася з 1963 р. для заміни системи MIM-14 «Найк Геркулес» як основна платформа повітряного захисту на середніх та великих висотах і системи MIM-23 Hawk як платформа повітряного тактичного захисту на середніх висотах. На додаток до цього, Patriot є платформою перехоплення балістичних ракет, причому з появою PAC-3, це завдання є основним призначенням комплексу. У жовтні 1980 р. було підписано контракт на виробництво комплексу, і в грудні 1981 р. комплекс був поставлений у війська.</p>
+                        <p class="justify-dark">Назва системи «Patriot» може бути також розтлумачена як акронім від фрази англ. Phased Array Tracking Radar to Intercept Of Target (РЛС супроводу з фазованими антенними ґратками для перехоплення цілей).</p>
+                        <p class="justify-dark">ЗРК «Петріот» складається з ракети повітряного перехоплення та високопродуктивної радарної системи. «Петріот» був розроблений в «Редстоунському арсеналі», розташованому в Хантсвіллі, Алабама, відомому розробкою в минулому системи перехоплення балістичних ракет «Сейфгард» (англ. Safeguard Program) та її складових, ракет «Спартан» і «Спринт». У наш час (2020-і), використовується і постачається в інші країни удосконалена версія системи — «Patriot» PAC-3.</p>
+                        <p class="justify-dark">Вартість постачання 9 батарей (по 4 ПУ на батарею) систем «Петріот» може доходити до $ 9 млрд (містить: 36 ПУ ЗУР «Петріот» PAC-3 (9 батарей по 4 ПУ), 288 ЗУР «Петріот» PAC-3 , 216 ЗУР з удосконаленим наведенням GEM-T, 10 комплектів РЛС з фазованими решітками, 10 контрольних станцій захоплення цілі).</p>
+                        <div class="line"></div>   
+                        </br>
+                        <h3 class="tm-text-dark mb-3">Склад системи</h3>
+                        <p class="justify-dark">Використана в комплексі універсальна РЛС AN/MPQ-53 або AN/MPQ-65 створена за технологією пасивної фазованої антенної решітки (ПФАР) та відповідає за роботу системи розпізнавання «свій-чужий», протидію заходам радіоелектронної боротьби, та наведення ракети на ціль за алгоритмом «наведення через ракету» (англ. track-via-missile, TVM).</p>
+                        <p class="justify-dark">РЛС AN/MPQ-53 призначена для використання в комплексах PAC-2, а AN/MPQ-65 для PAC-2 та PAC-3. Основна відмінність між цими РЛС полягає у використанні другої лампи біжної хвилі в моделі -65, завдяки чому були поліпшені тактико-технічні характеристики цього радару.</p>
+                        <p class="justify-dark">РЛС працює в діапазонах G та H за стандартами НАТО, тобто в діапазоні C цивільної системи IEEE</p>
+                        <p class="justify-dark">Робота в цьому діапазоні приводить до того, що між випромінюванням радарів комплексу «Петріот» та радаром з синтезованою апертурою європейських супутників цивільного призначення Sentinel-1 виникає інтерференція, яка помітна у вигляді великих хрестів на вільно доступних зображеннях європейського аерокосмічного агентства. РЛС комплексів «Петріот», водночас, знаходяться в середині цих хрестів.</p>
+                        <div class="line"></div>
+                        </br>
+
+
+                        <h6 class="tm-text-dark mb-3"> Читати більше на <a href="https://ru.wikipedia.org/wiki/Bayraktar_TB2" target="_parent" rel="sponsored">Вікіпедія</a></h6>
+                        </p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">
+                Інші екземпляри
+            </h2>
+        </div>
+
+        <div class="row tm-mb-90 tm-gallery">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-02.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>HESA Shahed 136</h2>
+                        <a href="e-hesa-shahed136.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>HESA Shahed 136</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-03.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Bushmaster</h2>
+                        <a href="e-bushmaster-pmv.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>Bushmaster</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-04.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Leopard 1А5</h2>
+                        <a href="e-leopard-1a5.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>Leopard 1А5</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="materials/encyclopedia/img-05.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Marder</h2>
+                        <a href="e-marder.html"></a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-black">
+                    <span>Marder</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+    </script>
+</body>
+</html>
